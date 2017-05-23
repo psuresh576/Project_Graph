@@ -38,6 +38,7 @@ window.onload = function() {
 			
 			data: [{
                                     type: "column",
+				    indexLabel:"{y}",
                                     dataPoints: getDataPointsFromCSV(data)
                                 }]
                        });
